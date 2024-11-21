@@ -1,0 +1,31 @@
+.spaces-home-container {
+  .hello-message {
+    width: fit-content;
+    text-transform: capitalize;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 0 3rem;
+    li {
+
+      a {
+        /* border-top: 15px solid white; */
+        padding: 3rem;
+        background-color: #172b4d;
+        color: white;
+        font-size: 18px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
