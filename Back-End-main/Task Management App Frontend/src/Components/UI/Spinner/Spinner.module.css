@@ -1,0 +1,49 @@
+.dots-container{
+    caret-color: transparent;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.dot-1,
+.dot-2,
+.dot-3{
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.dot-1{
+    animation-delay: 0s;
+}
+.dot-2{
+    animation-delay: .2s;
+}
+.dot-3{
+    animation-delay: .4s;
+}
+
+
+@keyframes spin {
+    0%{
+        height: 0px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 0px;
+    }
+}
